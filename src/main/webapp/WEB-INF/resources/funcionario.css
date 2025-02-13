@@ -1,0 +1,87 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 35%;
+	margin: 10px auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	color: #333;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+input[type="text"], input[type="number"], input[type="date"], button {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	font-size: 1em;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #45a049;
+}
+
+table {
+	width: 100%;
+	margin-top: 20px;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+	border: 1px solid #ddd;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+td button {
+	background-color: #f44336;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+td button:hover {
+	background-color: #e53935;
+}
+
+.success {
+	color: green;
+	background-color: #dff0d8;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.error {
+	color: red;
+	background-color: #f2dede;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
